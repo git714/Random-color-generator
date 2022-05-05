@@ -1,0 +1,19 @@
+#box{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 4px;
+
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    
+}
+.btn :hover{
+    background-color: black;
+    color: white;
+}
